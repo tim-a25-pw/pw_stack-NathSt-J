@@ -5,6 +5,7 @@
 :root {
     --font-primary: 'Nunito', sans-serif;
     --font-secondary: 'PT Sans', sans-serif;
+    --font-tertiary: 'Open Sans', sans-serif;
 
     --font-size-content: 18px;
 
@@ -12,5 +13,6 @@
     --font-size-h1: 100px;
     --font-size-h2: #{typo(35px, 50px)};
     --font-size-h3: 22px;
+    --font-size-logo: 40px;
     --font-size-nav: 14px;
 }

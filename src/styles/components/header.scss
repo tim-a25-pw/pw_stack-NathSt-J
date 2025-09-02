@@ -14,12 +14,29 @@
             display:flex;
             align-items:center;
             gap:30px;
+            color:var(--color-secondary);
+            font-family:var(--font-primary);
+            font-weight:900;
+            font-size:var(--font-size-logo);
+            text-decoration:none;
         }
 
         .icon{
             max-width:54px;
             max-height:54px;
             color:var(--color-primary);
+        }
+
+        .menu a{
+            color:var(--color-black);
+            font-family:var(--font-tertiary);
+            font-weight: 700;
+            text-transform:uppercase;
+            text-decoration:none;
+
+            &:hover{
+                color:var(--color-primary);
+            }
         }
 
    }

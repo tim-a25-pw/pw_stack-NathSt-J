@@ -9,10 +9,12 @@
 
         h1{
             margin:0;
+            font-weight:300;
         }
 
         .wrapper{
             min-height:866px;
+            padding-right:540px;
             display:flex;
             flex-direction:column;
             justify-content:center;

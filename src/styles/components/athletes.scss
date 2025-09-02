@@ -1,0 +1,19 @@
+/* ==========================================================================
+   athletes / component
+   ========================================================================== */
+
+   .athletes{
+    padding:125px 0px;
+    text-align:right;
+   }
+
+
+   .cards{
+    display:flex;
+    gap:30px;
+
+    .card_athlete{
+        max-width:350px;
+        max-height:350px;
+    }
+   }
