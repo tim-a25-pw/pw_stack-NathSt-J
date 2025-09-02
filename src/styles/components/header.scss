@@ -15,9 +15,6 @@
             align-items:center;
             gap:30px;
             color:var(--color-secondary);
-            font-family:var(--font-primary);
-            font-weight:900;
-            font-size:var(--font-size-logo);
             text-decoration:none;
         }
 
@@ -33,6 +30,7 @@
             font-weight: 700;
             text-transform:uppercase;
             text-decoration:none;
+            transition: all 0.2s ease-out;
 
             &:hover{
                 color:var(--color-primary);

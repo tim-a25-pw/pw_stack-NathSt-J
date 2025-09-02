@@ -1,0 +1,58 @@
+/* ==========================================================================
+   scrolly / component
+   ========================================================================== */
+
+.has-js {
+    [data-scrolly='fromBottom'] {
+        // Déclarations pour cacher l'élément
+        opacity: 0;
+        transform: translateY(60px);
+        transition: all 1s $ease-out-expo;
+
+        &.is-active {
+            // On change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    [data-scrolly='fromLeft'] {
+        // Déclarations pour cacher l'élément
+        opacity: 0;
+        transform: translateX(-60px);
+        transition: all 1s $ease-out-expo;
+
+        &.is-active {
+            // On change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    [data-scrolly='fromTop'] {
+        // Déclarations pour cacher l'élément
+        opacity: 0;
+        transform: translateY(-60px);
+        transition: all 1s $ease-out-expo;
+
+        &.is-active {
+            // On change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    // Pour éviter des problèmes avec le fromRight, mettre un 'overflow-x: hidden;' dans le body.scss
+    [data-scrolly='fromRight'] {
+        // Déclarations pour cacher l'élément
+        opacity: 0;
+        transform: translateX(60px);
+        transition: all 1s $ease-out-expo;
+
+        &.is-active {
+            // On change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}

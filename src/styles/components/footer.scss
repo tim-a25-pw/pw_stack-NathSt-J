@@ -1,3 +1,64 @@
 /* ==========================================================================
    footer / component
    ========================================================================== */
+
+   .footer{
+    color:var(--color-white);
+    background-color:var(--color-black);
+    padding:24px 0px;
+    text-align:center;
+
+        .logo{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:30px;
+            color:var(--color-white);
+            text-decoration:none;
+        }
+
+        .icon{
+            max-width:54px;
+            max-height:54px;
+            color:var(--color-primary);
+        }
+
+        hr{
+            border-color:var(--color-secondary);
+            margin:30px 0px;
+        }
+
+        p{
+            margin:0;
+        }
+   }
+
+   .footer .reseaux ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:16px;
+    padding:0px 0px 30px;
+    margin:0;
+
+    .reseau{
+        background-color:var(--color-secondary);
+        width:24px;
+        height:24px;
+        border-radius:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transition: all 0.2s ease-out;
+
+            &:hover{
+                background-color:var(--color-primary);
+            }
+
+        .icon{
+            font-size:12px;
+            color:var(--color-white);
+        }
+    }
+   }

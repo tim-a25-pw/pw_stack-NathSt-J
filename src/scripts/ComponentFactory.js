@@ -1,7 +1,11 @@
+import Scrolly from './components/Scrolly.js';
+
 export default class ComponentFactory {
   constructor() {
     this.componentInstances = [];
-    this.componentList = {};
+    this.componentList = {
+      Scrolly,
+    };
     this.init();
   }
   init() {

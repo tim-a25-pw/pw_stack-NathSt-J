@@ -3,24 +3,24 @@
 <!-- Hero -->
 
 <section class="hero">
-    <div class="wrapper">
-        <h1>
+    <div class="wrapper" data-scrolly="fromLeft">
+        <h1 class="item-a">
             La <strong>crème</strong>
             <br />
             de la <i>crème</i>
         </h1>
-        <p>
+        <p class="item-b">
             Votre rêve de p’tit cul est sur le point de se réaliser. Vous avez toujours rêvé de performer autant sur les internets que sur une surface glacée.
             Saississez votre chance dès aujourd’hui et joignez l’équipe de timCanada afin de vous dépasser dans un environement sécurisé et serein.
         </p>
-        <a href="#" class="button">Joignez notre équipe</a>
+        <a href="#" class="button item-c">Joignez notre équipe</a>
     </div>
 </section>
 
 <!-- Athlètes -->
 
 <section class="athletes">
-    <div class="wrapper">
+    <div class="wrapper" data-scrolly="fromRight">
         <h2>Nos athlètes</h2>
         <p>
             Nos athlètes sont sélectionnés parmi les meilleurs de leur génération. Sans aucun ajout d’hormones de croissances (à l’exception des Doritos), ils perfoment
@@ -31,7 +31,7 @@
             <div class="card_athlete">
                 <img src="assets/images/matt-pratt.jpg" alt="" />
                 <h3>Matt Pratt</h3>
-                <svg class="icon">
+                <svg class="icon icon--xl">
                     <use xlink:href="#icon-snow"></use>
                 </svg>
             </div>
@@ -39,7 +39,7 @@
             <div class="card_athlete"></div>
                 <img src="assets/images/ben-lavigne.jpg" alt="" />
                 <h3>Ben Lavigne</h3>
-                <svg class="icon">
+                <svg class="icon icon--xl">
                     <use xlink:href="#icon-skate"></use>
                 </svg>
             </div>
@@ -47,7 +47,7 @@
             <div class="card_athlete">
                 <img src="assets/images/jeff-white.jpg" alt="" />
                 <h3>Jeff White</h3>
-                <svg class="icon">
+                <svg class="icon icon--xl">
                     <use xlink:href="#icon-ski"></use>
                 </svg>
             </div>
@@ -58,7 +58,7 @@
 <!-- Gallery -->
 
 <section class="gallery">
-    <div class="wrapper">
+    <div class="wrapper" data-scrolly="fromRight">
         <h2>Sports en image</h2>
 
         <img src="assets/images/swiper1.jpg" alt="" />
@@ -66,48 +66,5 @@
         <img src="assets/images/swiper3.jpg" alt="" />
     </div>
 </section>
-
-<!-- Footer -->
-
-<a href="#">
-    <svg class="icon">
-        <use xlink:href="#icon-logo"></use>
-    </svg>
-    tim québec
-</a>
-<nav>
-    <ul>
-        <li>
-            <a href="#">
-                <svg class="icon">
-                    <use xlink:href="#icon-instagram"></use>
-                </svg>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <svg class="icon">
-                    <use xlink:href="#icon-dribble"></use>
-                </svg>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <svg class="icon">
-                    <use xlink:href="#icon-twitter"></use>
-                </svg>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <svg class="icon">
-                    <use xlink:href="#icon-youtube"></use>
-                </svg>
-            </a>
-        </li>
-    </ul>
-</nav>
-
-<p class="copyright">Tous droits réservés © 2025 tim québec.</p>
 
 {% include '_partials/_footer.html' %}
