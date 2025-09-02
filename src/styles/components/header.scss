@@ -1,0 +1,35 @@
+/* ==========================================================================
+   header / component
+   ========================================================================== */
+
+   .header{
+    background-color: var(--color-white);
+    padding:22px 164px;
+    max-height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+        .logo{
+            display:flex;
+            align-items:center;
+            gap:30px;
+        }
+
+        .icon{
+            max-width:54px;
+            max-height:54px;
+            color:var(--color-primary);
+        }
+
+   }
+
+   .header nav{
+
+
+    ul{
+        list-style:none;
+        display:flex;
+        gap:50px;
+    }
+   }

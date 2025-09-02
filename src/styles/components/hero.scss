@@ -1,0 +1,21 @@
+/* ==========================================================================
+   hero / component
+   ========================================================================== */
+
+   .hero{
+        background:url('../assets/images/bg-hero.jpg') no-repeat center right;
+        background-size:cover;
+        color:var(--color-white);
+
+        h1{
+            margin:0;
+        }
+
+        .wrapper{
+            min-height:866px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            gap:30px;
+        }
+   }
